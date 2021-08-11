@@ -1,0 +1,19 @@
+{
+  "moduleFileExtensions": [
+    "js"
+  ],
+  "roots": ["<rootDir>/tests"],
+  "modulePathIgnorePatterns": [
+    "files"
+  ],
+  "globals": {
+    "ts-jest": {
+      "tsConfig": "tsconfig.json"
+    }
+  },
+  "testMatch": [
+    "**/tests/*.+(test.js)",
+    "**/tests/**/*.+(test.js)"
+  ],
+  "testEnvironment": "node"
+}
