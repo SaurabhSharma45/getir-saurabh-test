@@ -20,7 +20,7 @@ const { connectToDatabase } = require("./services/database");
 const { LoggerService } = require("./services/loggerSvc");
 const {errorHandler} = require("./middleware/error-handler")
 const host = process.env.GETIR_HOST;
-const port = Number(process.env.GETIR_PORT) || 8080;
+const port = Number(process.env.PORT) || 8080;
 
 const { recordRouter } = require("./records/record_routes");
 
